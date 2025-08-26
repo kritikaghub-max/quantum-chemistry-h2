@@ -1,18 +1,3 @@
-"""
-Simple Quantum Chemistry with Qiskit - H2 Molecule (Compatibility Version)
-==========================================================================
-
-This is a simplified version that avoids version conflicts with Qiskit packages.
-It demonstrates basic quantum computing concepts for chemistry without complex dependencies.
-
-Requirements:
-- qiskit (core package only)
-- numpy
-- matplotlib
-
-Install with: pip install qiskit numpy matplotlib
-"""
-
 import numpy as np
 import matplotlib.pyplot as plt
 from qiskit import QuantumCircuit, transpile
